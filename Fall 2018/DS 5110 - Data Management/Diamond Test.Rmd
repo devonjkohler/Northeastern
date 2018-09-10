@@ -1,0 +1,30 @@
+---
+title: "Devon Kohler CV"
+author: "Devon Kohler"
+date: "September 8, 2018"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+***
+```{r load diamonds, include=FALSE}
+load("diamond-sizes.Rmd")
+```
+####BA In Economics from Union College **June 2013**
+
+####MS In Data Science from Northeastern[^1]
+
+> Test block quote\
+> Test Second Line
+
+Diamond's average price is `mean(diamonds$price)`
+
+```{r print-price}
+hist(diamonds$price)
+
+```
+
+
+
+[^1]: Expected Graduation 2020
